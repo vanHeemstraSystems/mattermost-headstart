@@ -1,2 +1,6 @@
-# mattermost-headstart
-MatterMost - Headstart
+mattermost-headstart
+# MatterMost - Headstart
+
+Based on "MatterMost" at https://mattermost.com/
+
+An open source platform for developer collaboration. Secure, flexible, and integrated with the tools you love.

@@ -82,4 +82,5 @@ Your Mattermost cluster should be ready to use with regular backups and disk sna
 You can find your details [here](https://dashboard.render.com/web/srv-c8tgv6fd17cblpocnhmg/deploys/dep-c8tgv8nd17cblpocni30):
 
 External URL: https://mattermost-8u2q.onrender.com
+
 Internal Address: mattermost-8u2q:10000

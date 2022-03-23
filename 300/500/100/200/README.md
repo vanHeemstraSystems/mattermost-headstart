@@ -34,6 +34,8 @@ Dockerfile Path: ./containers/app/monio/Dockerfile
 
 Click ***Create Private Service***
 
+***NOTE***: The deployment may fail, but that is OK for now. In the next step we will add additional requirements taht will make it deploy successfully. 
+
 ## Step 3: Add these two environment variables:
 
 Go (again) to [your private Service](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/deploys/dep-c8tf53441ls5dnacg3og).

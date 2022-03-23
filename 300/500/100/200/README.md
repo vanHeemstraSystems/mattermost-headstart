@@ -30,7 +30,7 @@ Plans: Starter $7/month, RAM: 512 MB, CPU: 0.5
 
 Under ***Advanced*** add the following:
 
-Dockerfile Path: ./containers/app/monio/Dockerfile
+Dockerfile Path: ./containers/app/minio/Dockerfile
 
 Click ***Create Private Service***
 

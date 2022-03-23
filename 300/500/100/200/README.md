@@ -76,5 +76,5 @@ Click ***Create Private Service***
 
 ## Step 6: Create the service.
 
-If not done so before, click ***Create Private Servcie**
+If not done so before (i.e. if you made all above changes at once before creating the private service), click ***Create Private Servcie***
 

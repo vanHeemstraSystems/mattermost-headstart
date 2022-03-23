@@ -36,7 +36,47 @@ After a successfull creation of the databse, you will be forwarded to its dedica
 
 ## Info
 
+Name: mattermost
 
+Created: 27 minutes ago
+
+Status: Available
+
+PostgreSQL Version: 14
+
+Region: Frankfurt (EU Central)
+
+Plan: Starter
+
+Read Replica: Add Read Replica
+
+Storage: Unavailable
+
+Hostname: dpg-c8te977h8vlc3sq39q9g
+
+Port: 5432
+
+Database: mattermost_xic8
+
+Username: mattermost_xic8_user
+
+Password: ***** (accessible when logged in)
+
+Internal Connection String: ***** (accessible when logged in)
+
+Connecting from outside of the cluster
+
+External Connection String: ***** (accessible when logged in)
+
+PSQL command: ***** (accessible when logged in)
+
+Access Control
+
+Only the following sources (in CIDR block notation) are allowed access to your database from outside of your private network.
+
+Source: 0.0.0.0/0
+
+Description: everywhere
 
 ## Metrics
 

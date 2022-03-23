@@ -56,7 +56,19 @@ These values will be needed for the Mattermost service later.
 
 Finally, choose to ***Save Changes***.
 
+***NOTE***: The deployment may fail still, but that is OK for now. In the next step we will add additional requirements taht will make it deploy successfully.
+
 ## Step 4: Add a disk with /data as the mount path.
+
+In [your private service](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/deploys/dep-c8tf53441ls5dnacg3og) Choose the Disks menu item and click ***Add Disk***.
+
+Name: mattermost
+
+Mount Path: /data
+
+Size: 1 GB (you can increase the size later, but you can't decrease it. Pick the lowest value that works for your app.
+
+Click ***Save***.
 
 ## Step 5: Set the Docker build context directory to ```./minio``` and the Dockerfile path to ```./minio/Dockerfile```.
 

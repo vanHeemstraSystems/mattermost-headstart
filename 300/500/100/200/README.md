@@ -28,12 +28,6 @@ Branch: main
 
 Plans: Starter $7/month, RAM: 512 MB, CPU: 0.5
 
-Under ***Advanced*** add the following:
-
-Dockerfile Path: ./containers/app/minio/Dockerfile
-
-Docker Build Context Directory: ./containers/app/minio/
-
 Click ***Create Private Service***
 
 ***NOTE***: The deployment may fail, but that is OK for now. In the next step we will add additional requirements taht will make it deploy successfully. 
@@ -70,7 +64,17 @@ Size: 1 GB (you can increase the size later, but you can't decrease it. Pick the
 
 Click ***Save***.
 
-## Step 5: Set the Docker build context directory to ```./minio``` and the Dockerfile path to ```./minio/Dockerfile```.
+## Step 5: Set the Dockerfile path to ```./containers/app/minio/Dockerfile``` and the Docker Build Context Directory to ```./containers/app/minio```.
+
+Under ***Advanced*** add the following:
+
+Dockerfile Path: ./containers/app/minio/Dockerfile
+
+Docker Build Context Directory: ./containers/app/minio
+
+Click ***Create Private Service***
 
 ## Step 6: Create the service.
+
+If not done so before, click ***Create Private Servcie**
 

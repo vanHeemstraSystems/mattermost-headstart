@@ -32,19 +32,19 @@ VALUE: postgres
 ___
 KEY: MM_USERNAME
 
-VALUE: The username from the database created earlier (here: )
+VALUE: The username from the database created earlier (here: mattermost_xic8_user)
 ___
 KEY: MM_PASSWORD
 
-VALUE: The password from the database created earlier (here: )
+VALUE: The password from the database created earlier (look [here](https://dashboard.render.com/d/dpg-c8te977h8vlc3sq39q9g/info))
 ___
 KEY: MM_DBNAME
 
-VALUE: The database name from the database created earlier (here: )
+VALUE: The database name from the database created earlier (here: mattermost_xic8)
 ___
 KEY: DB_HOST
 
-VALUE: The hostname from the database created earlier (here: )
+VALUE: The hostname from the database created earlier (here: dpg-c8te977h8vlc3sq39q9g)
 ___
 KEY: MM_FILESETTINGS_DRIVERNAME	
 
@@ -56,11 +56,11 @@ VALUE: mattermost
 ___
 KEY: MM_FILESETTINGS_AMAZONS3ACCESSKEYID
 
-VALUE: The MINIO_ACCESS_KEY from MinIO created earlier
+VALUE: The MINIO_ACCESS_KEY from MinIO created earlier (look [here]())
 ___
 KEY: MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY
 
-VALUE: The MINIO_SECRET_KEY from MinIO created earlier
+VALUE: The MINIO_SECRET_KEY from MinIO created earlier (look [here]())
 ___
 KEY: MM_FILESETTINGS_AMAZONS3ENDPOINT
 

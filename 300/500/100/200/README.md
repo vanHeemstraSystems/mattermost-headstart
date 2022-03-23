@@ -32,6 +32,8 @@ Under ***Advanced*** add the following:
 
 Dockerfile Path: ./containers/app/minio/Dockerfile
 
+Docker Build Context Directory: ./containers/app/minio/
+
 Click ***Create Private Service***
 
 ***NOTE***: The deployment may fail, but that is OK for now. In the next step we will add additional requirements taht will make it deploy successfully. 

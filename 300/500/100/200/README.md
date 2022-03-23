@@ -4,6 +4,12 @@ Based on "Create the MinIO Service" at https://render.com/docs/deploy-mattermost
 
 ## Step 1: Go [here](https://dashboard.render.com/select-repo?type=pserv) to begin creating a new private service.
 
+You have no connected repositories. Connect your GitHub or GitLab repository to Render.
+
+Alternatively, to use an existing public repository simply enter the URL.
+
+HINT: Connect [this GitHub repository](https://github.com/vanHeemstraSystems/mattermost-headstart/browse) to Render
+
 ## Step 2: Use this Mattermost repository.
 
 ## Step 3: Add these two environment variables:

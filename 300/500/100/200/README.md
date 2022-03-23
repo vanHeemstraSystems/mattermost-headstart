@@ -40,7 +40,7 @@ Click ***Create Private Service***
 
 Go (again) to [your private Service](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/deploys/dep-c8tf53441ls5dnacg3og).
 
-In the Advanced section at the bottom of the form, choose to ***Add Environment Variables***:
+In the Advanced section at the bottom of the form, choose to ***[Add Environment Variables](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env)***:
 
 KEY: MINIO_ACCESS_KEY
 VALUE: Supply your own value or generate it

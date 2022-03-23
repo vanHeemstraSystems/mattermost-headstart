@@ -52,6 +52,8 @@ VALUE: Supply your own value or generate it (here we choose to have it generated
 
 These values will be needed for the Mattermost service later.
 
+Finally, choose to ***Save Changes***.
+
 ## Step 4: Add a disk with /data as the mount path.
 
 ## Step 5: Set the Docker build context directory to ```./minio``` and the Dockerfile path to ```./minio/Dockerfile```.

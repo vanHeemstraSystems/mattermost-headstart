@@ -25,57 +25,47 @@ Under ***Advanced***:
 Choose ***Add Environment Variable***:
 
 Add the following environment variables:
-
+___
 KEY: MM_SQLSETTINGS_DRIVERNAME
 
 VALUE: postgres
 ___
-
 KEY: MM_USERNAME
 
 VALUE: The username from the database created earlier (here: )
 ___
-
 KEY: MM_PASSWORD
 
 VALUE: The password from the database created earlier (here: )
 ___
-
 KEY: MM_DBNAME
 
 VALUE: The database name from the database created earlier (here: )
 ___
-
 KEY: DB_HOST
 
 VALUE: The hostname from the database created earlier (here: )
 ___
-
 KEY: MM_FILESETTINGS_DRIVERNAME	
 
 VALUE: amazons3
 ___
-
 KEY: MM_FILESETTINGS_AMAZONS3BUCKET
 
 VALUE: mattermost
 ___
-
 KEY: MM_FILESETTINGS_AMAZONS3ACCESSKEYID
 
 VALUE: The MINIO_ACCESS_KEY from MinIO created earlier
 ___
-
 KEY: MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY
 
 VALUE: The MINIO_SECRET_KEY from MinIO created earlier
 ___
-
 KEY: MM_FILESETTINGS_AMAZONS3ENDPOINT
 
 VALUE: The host:port from the MinIO created earlier
 ___
-
 KEY: MM_FILESETTINGS_AMAZONS3SSL	
 
 VALUE: false

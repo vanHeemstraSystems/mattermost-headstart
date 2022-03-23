@@ -28,6 +28,10 @@ Branch: main
 
 Plans: Starter $7/month, RAM: 512 MB, CPU: 0.5
 
+Under ***Advanced*** add the following:
+
+Dockerfile Path: ./containers/app/monio/Dockerfile
+
 Click ***Create Private Service***
 
 ## Step 3: Add these two environment variables:

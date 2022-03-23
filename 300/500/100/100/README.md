@@ -80,8 +80,18 @@ Description: everywhere
 
 ## Metrics
 
+Graph about Memory
+
+Graph about CPU
+
+Graph about Storage
+
+Graph about Active Connections
 
 ## Backups
 
+You can trigger a backup here. Databases are backed up every 24 hours. [Learn more](https://render.com/docs/databases#backups).
 
 ## Logs
+
+Logs viewable in a terminal window when logged in.

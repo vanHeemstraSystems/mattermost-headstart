@@ -64,7 +64,7 @@ VALUE: The MINIO_SECRET_KEY from MinIO created earlier (look [here](https://dash
 ___
 KEY: MM_FILESETTINGS_AMAZONS3ENDPOINT
 
-VALUE: The host:port from the MinIO created earlier
+VALUE: The host:port from the MinIO created earlier (here: mattermost-pdca:10000)
 ___
 KEY: MM_FILESETTINGS_AMAZONS3SSL	
 

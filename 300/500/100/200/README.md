@@ -12,6 +12,10 @@ HINT: Connect [this GitHub repository](https://github.com/vanHeemstraSystems/mat
 
 ## Step 2: Use this Mattermost repository.
 
+https://github.com/vanHeemstraSystems/mattermost-headstart/browse
+
+The above repository should have been connected to render in previous step.
+
 ## Step 3: Add these two environment variables:
 
 KEY: MINIO_ACCESS_KEY

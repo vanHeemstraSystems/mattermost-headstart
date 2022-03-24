@@ -56,11 +56,11 @@ VALUE: mattermost
 ___
 KEY: MM_FILESETTINGS_AMAZONS3ACCESSKEYID
 
-VALUE: The MINIO_ACCESS_KEY from MinIO created earlier (look [here](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env))
+VALUE: The MINIO_ROOT_USER (was: MINIO_ACCESS_KEY) from MinIO created earlier (look [here](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env))
 ___
 KEY: MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY
 
-VALUE: The MINIO_SECRET_KEY from MinIO created earlier (look [here](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env))
+VALUE: The MINIO_ROOT_PASSWORD (was: MINIO_SECRET_KEY) from MinIO created earlier (look [here](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env))
 ___
 KEY: MM_FILESETTINGS_AMAZONS3ENDPOINT
 

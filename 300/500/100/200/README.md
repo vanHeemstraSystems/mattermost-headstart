@@ -38,11 +38,11 @@ Go (again) to [your private Service](https://dashboard.render.com/pserv/srv-c8tf
 
 In the Advanced section at the bottom of the form, choose to ***[Add Environment Variables](https://dashboard.render.com/pserv/srv-c8tf51s41ls5dnacg3m0/env)***:
 
-KEY: MINIO_ACCESS_KEY
+KEY: MINIO_ROOT_USER (was: MINIO_ACCESS_KEY)
 
 VALUE: Supply your own value or generate it (here we choose to have it generated)
 
-KEY: MINIO_SECRET_KEY
+KEY: MINIO_ROOT_PASSWORD (was: MINIO_SECRET_KEY)
 
 VALUE: Supply your own value or generate it (here we choose to have it generated)
 

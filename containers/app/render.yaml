@@ -12,9 +12,9 @@ services:
     name: data
     mountPath: /data
   envVars:
-  - key: MINIO_ACCESS_KEY
+  - key: MINIO_ROOT_USER
     generateValue: true
-  - key: MINIO_SECRET_KEY
+  - key: MINIO_ROOT_PASSWORD
     generateValue: true
 
 - type: web
@@ -56,12 +56,12 @@ services:
     fromService:
       type: pserv
       name: mattermost-minio
-      envVarKey: MINIO_ACCESS_KEY
+      envVarKey: MINIO_ROOT_USER
   - key: MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY
     fromService:
       type: pserv
       name: mattermost-minio
-      envVarKey: MINIO_SECRET_KEY
+      envVarKey: MINIO_ROOT_PASSWORD
   - key: MM_FILESETTINGS_AMAZONS3ENDPOINT
     fromService:
       type: pserv
